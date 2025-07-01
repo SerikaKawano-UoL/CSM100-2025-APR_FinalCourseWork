@@ -34,6 +34,6 @@ java {
 }
 
 application {
-    // Define the main class for the application.
-    mainClass.set(project.findProperty("chooseMain").toString())
+    mainClass.set("main.GUImain")
+    // mainClass.set("main.TXTmain")
 }
