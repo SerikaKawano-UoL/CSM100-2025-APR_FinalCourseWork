@@ -143,7 +143,11 @@ public class GUI extends JFrame implements Constants {
      * @param coins the number of coins to be displayed
      * @param score the player's current score
      */
-    public void updateCoins(int coins, int score) {
+    // public void updateCoins(int coins, int score) {
+    //     options.updateCoins(coins, score);
+    //     tileSelect.repaint();
+    // }
+    public void updateCoins(int coins, double score) {
         options.updateCoins(coins, score);
         tileSelect.repaint();
     }

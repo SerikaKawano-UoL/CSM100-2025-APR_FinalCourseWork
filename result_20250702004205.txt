@@ -1,0 +1,535 @@
+﻿Calculating task graph as no cached configuration is available for tasks: :temple:run --args=-minseed 10 -maxseed 15
+> Task :temple:generateEffectiveLombokConfig UP-TO-DATE
+> Task :temple:processResources UP-TO-DATE
+
+> Task :temple:compileJava
+
+> Task :temple:classes
+
+> Task :temple:run
+Seed : 10
+Exploration started at tile: 0
+Moving to: 1, Distance: 24
+Moving to: 2, Distance: 23
+Moving to: 3, Distance: 22
+Moving to: 4, Distance: 21
+Moving to: 5, Distance: 20
+Moving to: 6, Distance: 19
+Moving to: 7, Distance: 18
+Moving to: 9, Distance: 17
+Moving to: 12, Distance: 16
+Moving to: 17, Distance: 15
+Moving to: 22, Distance: 14
+Moving to: 28, Distance: 13
+Moving to: 35, Distance: 12
+Moving to: 40, Distance: 11
+Moving to: 46, Distance: 10
+Moving to: 52, Distance: 9
+Moving to: 60, Distance: 8
+Moving to: 67, Distance: 7
+Moving to: 73, Distance: 6
+Moving to: 76, Distance: 5
+Moving to: 81, Distance: 4
+Moving to: 87, Distance: 3
+Moving to: 83, Distance: 4
+Moving to: 78, Distance: 5
+Moving to: 74, Distance: 6
+Moving to: 68, Distance: 7
+Backtracking to: 74
+Moving to: 77, Distance: 7
+Moving to: 82, Distance: 8
+Moving to: 88, Distance: 7
+Moving to: 92, Distance: 6
+Moving to: 96, Distance: 7
+Moving to: 100, Distance: 8
+Moving to: 105, Distance: 9
+Moving to: 111, Distance: 8
+Moving to: 118, Distance: 9
+Backtracking to: 111
+Backtracking to: 105
+Moving to: 110, Distance: 10
+Moving to: 117, Distance: 11
+Moving to: 123, Distance: 12
+Moving to: 128, Distance: 13
+Moving to: 131, Distance: 14
+Moving to: 134, Distance: 15
+Moving to: 132, Distance: 14
+Moving to: 135, Distance: 13
+Moving to: 138, Distance: 14
+Moving to: 136, Distance: 15
+Backtracking to: 138
+Backtracking to: 135
+Backtracking to: 132
+Backtracking to: 134
+Backtracking to: 131
+Backtracking to: 128
+Backtracking to: 123
+Backtracking to: 117
+Backtracking to: 110
+Backtracking to: 105
+Moving to: 112, Distance: 10
+Moving to: 106, Distance: 9
+Backtracking to: 112
+Backtracking to: 105
+Backtracking to: 100
+Backtracking to: 96
+Backtracking to: 92
+Backtracking to: 88
+Backtracking to: 82
+Backtracking to: 77
+Backtracking to: 74
+Backtracking to: 78
+Backtracking to: 83
+Backtracking to: 87
+Backtracking to: 81
+Backtracking to: 76
+Moving to: 80, Distance: 4
+Moving to: 86, Distance: 3
+Moving to: 91, Distance: 2
+Moving to: 95, Distance: 1
+Moving to: 99, Distance: 0
+Orb found at tile: 99
+Bonus for run 1 (seed=10): 1.084
+
+Seed : 11
+Exploration started at tile: 1292
+Moving to: 1293, Distance: 13
+Moving to: 1294, Distance: 12
+Moving to: 1297, Distance: 13
+Moving to: 1300, Distance: 14
+Moving to: 1304, Distance: 13
+Moving to: 1307, Distance: 12
+Moving to: 1309, Distance: 11
+Moving to: 1311, Distance: 10
+Moving to: 1313, Distance: 9
+Moving to: 1317, Distance: 10
+Moving to: 1321, Distance: 9
+Moving to: 1323, Distance: 8
+Moving to: 1327, Distance: 7
+Moving to: 1332, Distance: 6
+Moving to: 1336, Distance: 5
+Moving to: 1339, Distance: 6
+Moving to: 1342, Distance: 5
+Moving to: 1344, Distance: 4
+Moving to: 1343, Distance: 3
+Moving to: 1340, Distance: 2
+Moving to: 1337, Distance: 1
+Moving to: 1341, Distance: 0
+Orb found at tile: 1341
+Bonus for run 2 (seed=11): 1.2625
+
+Seed : 12
+Exploration started at tile: 1532
+Moving to: 1533, Distance: 28
+Moving to: 1535, Distance: 27
+Moving to: 1538, Distance: 26
+Moving to: 1540, Distance: 25
+Moving to: 1542, Distance: 26
+Moving to: 1545, Distance: 25
+Moving to: 1548, Distance: 26
+Moving to: 1544, Distance: 27
+Moving to: 1547, Distance: 28
+Moving to: 1550, Distance: 29
+Moving to: 1553, Distance: 30
+Moving to: 1557, Distance: 31
+Moving to: 1561, Distance: 32
+Moving to: 1568, Distance: 33
+Moving to: 1576, Distance: 32
+Moving to: 1569, Distance: 31
+Moving to: 1562, Distance: 30
+Moving to: 1570, Distance: 29
+Moving to: 1577, Distance: 28
+Moving to: 1571, Distance: 27
+Moving to: 1578, Distance: 26
+Moving to: 1583, Distance: 25
+Moving to: 1588, Distance: 24
+Moving to: 1593, Distance: 23
+Moving to: 1596, Distance: 22
+Moving to: 1597, Distance: 21
+Moving to: 1594, Distance: 20
+Moving to: 1589, Distance: 21
+Moving to: 1585, Distance: 22
+Moving to: 1579, Distance: 23
+Moving to: 1572, Distance: 22
+Moving to: 1565, Distance: 21
+Moving to: 1573, Distance: 20
+Moving to: 1567, Distance: 21
+Moving to: 1575, Distance: 22
+Moving to: 1581, Distance: 21
+Moving to: 1586, Distance: 22
+Moving to: 1591, Distance: 21
+Moving to: 1595, Distance: 22
+Moving to: 1590, Distance: 23
+Backtracking to: 1595
+Moving to: 1598, Distance: 23
+Moving to: 1601, Distance: 24
+Moving to: 1606, Distance: 23
+Moving to: 1612, Distance: 22
+Moving to: 1617, Distance: 21
+Moving to: 1626, Distance: 20
+Moving to: 1634, Distance: 19
+Moving to: 1649, Distance: 18
+Moving to: 1663, Distance: 17
+Moving to: 1679, Distance: 16
+Moving to: 1697, Distance: 15
+Moving to: 1687, Distance: 14
+Moving to: 1669, Distance: 13
+Moving to: 1655, Distance: 14
+Moving to: 1670, Distance: 13
+Moving to: 1688, Distance: 12
+Moving to: 1707, Distance: 11
+Moving to: 1722, Distance: 12
+Moving to: 1738, Distance: 11
+Moving to: 1751, Distance: 10
+Moving to: 1762, Distance: 9
+Moving to: 1752, Distance: 8
+Moving to: 1739, Distance: 9
+Moving to: 1724, Distance: 10
+Moving to: 1708, Distance: 11
+Moving to: 1723, Distance: 12
+Moving to: 1734, Distance: 13
+Moving to: 1720, Distance: 14
+Moving to: 1735, Distance: 13
+Moving to: 1748, Distance: 12
+Moving to: 1736, Distance: 13
+Moving to: 1749, Distance: 12
+Moving to: 1760, Distance: 13
+Moving to: 1770, Distance: 12
+Moving to: 1779, Distance: 11
+Moving to: 1788, Distance: 10
+Moving to: 1799, Distance: 9
+Moving to: 1808, Distance: 10
+Moving to: 1817, Distance: 9
+Moving to: 1828, Distance: 10
+Moving to: 1839, Distance: 9
+Backtracking to: 1828
+Backtracking to: 1817
+Backtracking to: 1808
+Backtracking to: 1799
+Backtracking to: 1788
+Backtracking to: 1779
+Backtracking to: 1770
+Backtracking to: 1760
+Backtracking to: 1749
+Backtracking to: 1736
+Moving to: 1721, Distance: 14
+Moving to: 1704, Distance: 15
+Moving to: 1686, Distance: 16
+Moving to: 1668, Distance: 17
+Moving to: 1654, Distance: 18
+Moving to: 1638, Distance: 19
+Moving to: 1629, Distance: 20
+Moving to: 1639, Distance: 19
+Backtracking to: 1629
+Moving to: 1620, Distance: 21
+Moving to: 1613, Distance: 22
+Moving to: 1607, Distance: 23
+Moving to: 1602, Distance: 24
+Moving to: 1599, Distance: 23
+Backtracking to: 1602
+Backtracking to: 1607
+Backtracking to: 1613
+Backtracking to: 1620
+Backtracking to: 1629
+Backtracking to: 1638
+Backtracking to: 1654
+Backtracking to: 1668
+Backtracking to: 1686
+Backtracking to: 1704
+Backtracking to: 1721
+Backtracking to: 1736
+Backtracking to: 1748
+Backtracking to: 1735
+Backtracking to: 1720
+Backtracking to: 1734
+Backtracking to: 1723
+Moving to: 1706, Distance: 13
+Backtracking to: 1723
+Backtracking to: 1708
+Backtracking to: 1724
+Backtracking to: 1739
+Backtracking to: 1752
+Backtracking to: 1762
+Moving to: 1773, Distance: 8
+Moving to: 1781, Distance: 7
+Moving to: 1789, Distance: 6
+Moving to: 1800, Distance: 5
+Moving to: 1810, Distance: 4
+Moving to: 1820, Distance: 3
+Moving to: 1831, Distance: 2
+Moving to: 1843, Distance: 1
+Moving to: 1854, Distance: 0
+Orb found at tile: 1854
+Bonus for run 3 (seed=12): 1.0609756097560976
+
+Seed : 13
+Exploration started at tile: 3408
+Moving to: 3409, Distance: 21
+Moving to: 3410, Distance: 20
+Moving to: 3412, Distance: 19
+Moving to: 3414, Distance: 20
+Moving to: 3416, Distance: 21
+Moving to: 3418, Distance: 20
+Moving to: 3421, Distance: 19
+Moving to: 3424, Distance: 18
+Moving to: 3426, Distance: 17
+Moving to: 3429, Distance: 16
+Moving to: 3434, Distance: 17
+Moving to: 3442, Distance: 16
+Moving to: 3448, Distance: 15
+Moving to: 3452, Distance: 16
+Moving to: 3456, Distance: 15
+Moving to: 3459, Distance: 14
+Moving to: 3462, Distance: 13
+Moving to: 3464, Distance: 12
+Moving to: 3467, Distance: 13
+Backtracking to: 3464
+Moving to: 3468, Distance: 13
+Moving to: 3471, Distance: 12
+Moving to: 3475, Distance: 11
+Moving to: 3478, Distance: 10
+Moving to: 3486, Distance: 9
+Moving to: 3480, Distance: 10
+Moving to: 3489, Distance: 9
+Moving to: 3497, Distance: 8
+Moving to: 3502, Distance: 9
+Moving to: 3508, Distance: 8
+Moving to: 3513, Distance: 7
+Moving to: 3518, Distance: 6
+Moving to: 3522, Distance: 5
+Moving to: 3524, Distance: 6
+Backtracking to: 3522
+Backtracking to: 3518
+Backtracking to: 3513
+Moving to: 3519, Distance: 6
+Backtracking to: 3513
+Backtracking to: 3508
+Backtracking to: 3502
+Backtracking to: 3497
+Backtracking to: 3489
+Backtracking to: 3480
+Moving to: 3488, Distance: 11
+Moving to: 3479, Distance: 12
+Moving to: 3487, Distance: 13
+Moving to: 3496, Distance: 12
+Backtracking to: 3487
+Moving to: 3495, Distance: 14
+Backtracking to: 3487
+Backtracking to: 3479
+Backtracking to: 3488
+Backtracking to: 3480
+Backtracking to: 3486
+Backtracking to: 3478
+Moving to: 3485, Distance: 11
+Moving to: 3494, Distance: 12
+Moving to: 3501, Distance: 11
+Moving to: 3507, Distance: 10
+Moving to: 3511, Distance: 9
+Moving to: 3516, Distance: 8
+Moving to: 3512, Distance: 9
+Moving to: 3517, Distance: 8
+Moving to: 3521, Distance: 9
+Moving to: 3515, Distance: 10
+Moving to: 3510, Distance: 11
+Moving to: 3506, Distance: 12
+Moving to: 3500, Distance: 13
+Moving to: 3505, Distance: 14
+Backtracking to: 3500
+Backtracking to: 3506
+Backtracking to: 3510
+Backtracking to: 3515
+Backtracking to: 3521
+Backtracking to: 3517
+Backtracking to: 3512
+Backtracking to: 3516
+Backtracking to: 3511
+Backtracking to: 3507
+Backtracking to: 3501
+Backtracking to: 3494
+Backtracking to: 3485
+Backtracking to: 3478
+Backtracking to: 3475
+Backtracking to: 3471
+Backtracking to: 3468
+Backtracking to: 3464
+Backtracking to: 3462
+Backtracking to: 3459
+Backtracking to: 3456
+Backtracking to: 3452
+Moving to: 3455, Distance: 17
+Moving to: 3451, Distance: 18
+Moving to: 3447, Distance: 19
+Moving to: 3440, Distance: 18
+Backtracking to: 3447
+Backtracking to: 3451
+Backtracking to: 3455
+Backtracking to: 3452
+Backtracking to: 3448
+Backtracking to: 3442
+Backtracking to: 3434
+Moving to: 3441, Distance: 18
+Backtracking to: 3434
+Backtracking to: 3429
+Backtracking to: 3426
+Moving to: 3430, Distance: 16
+Moving to: 3436, Distance: 15
+Moving to: 3443, Distance: 16
+Moving to: 3449, Distance: 17
+Moving to: 3453, Distance: 16
+Moving to: 3457, Distance: 17
+Moving to: 3460, Distance: 16
+Backtracking to: 3457
+Backtracking to: 3453
+Backtracking to: 3449
+Backtracking to: 3443
+Moving to: 3435, Distance: 17
+Backtracking to: 3443
+Backtracking to: 3436
+Backtracking to: 3430
+Backtracking to: 3426
+Backtracking to: 3424
+Backtracking to: 3421
+Backtracking to: 3418
+Backtracking to: 3416
+Moving to: 3419, Distance: 22
+Moving to: 3422, Distance: 23
+Backtracking to: 3419
+Backtracking to: 3416
+Backtracking to: 3414
+Backtracking to: 3412
+Backtracking to: 3410
+Backtracking to: 3409
+Moving to: 3411, Distance: 20
+Moving to: 3413, Distance: 19
+Moving to: 3415, Distance: 18
+Moving to: 3417, Distance: 17
+Moving to: 3420, Distance: 16
+Moving to: 3423, Distance: 15
+Moving to: 3425, Distance: 14
+Moving to: 3428, Distance: 13
+Moving to: 3432, Distance: 12
+Moving to: 3438, Distance: 11
+Moving to: 3445, Distance: 10
+Moving to: 3439, Distance: 11
+Moving to: 3446, Distance: 10
+Moving to: 3450, Distance: 11
+Moving to: 3454, Distance: 10
+Moving to: 3458, Distance: 9
+Moving to: 3461, Distance: 8
+Moving to: 3463, Distance: 7
+Moving to: 3465, Distance: 6
+Moving to: 3469, Distance: 5
+Moving to: 3472, Distance: 4
+Moving to: 3470, Distance: 5
+Moving to: 3474, Distance: 4
+Moving to: 3477, Distance: 5
+Moving to: 3482, Distance: 4
+Moving to: 3491, Distance: 5
+Moving to: 3484, Distance: 6
+Moving to: 3492, Distance: 7
+Moving to: 3483, Distance: 6
+Moving to: 3490, Distance: 7
+Moving to: 3481, Distance: 6
+Moving to: 3476, Distance: 7
+Moving to: 3473, Distance: 6
+Backtracking to: 3476
+Backtracking to: 3481
+Backtracking to: 3490
+Moving to: 3498, Distance: 8
+Moving to: 3503, Distance: 9
+Moving to: 3499, Distance: 8
+Moving to: 3493, Distance: 7
+Backtracking to: 3499
+Moving to: 3504, Distance: 9
+Moving to: 3509, Distance: 10
+Moving to: 3514, Distance: 11
+Moving to: 3520, Distance: 12
+Moving to: 3523, Distance: 11
+Moving to: 3525, Distance: 10
+Moving to: 3526, Distance: 9
+Moving to: 3529, Distance: 8
+Moving to: 3533, Distance: 7
+Moving to: 3540, Distance: 6
+Moving to: 3547, Distance: 5
+Moving to: 3554, Distance: 4
+Moving to: 3561, Distance: 3
+Moving to: 3568, Distance: 2
+Moving to: 3574, Distance: 3
+Moving to: 3581, Distance: 2
+Moving to: 3590, Distance: 1
+Moving to: 3584, Distance: 0
+Orb found at tile: 3584
+Bonus for run 4 (seed=13): 1.0
+
+Seed : 14
+Exploration started at tile: 4656
+Moving to: 4657, Distance: 22
+Moving to: 4659, Distance: 21
+Moving to: 4661, Distance: 20
+Moving to: 4662, Distance: 19
+Moving to: 4664, Distance: 18
+Moving to: 4666, Distance: 19
+Moving to: 4668, Distance: 18
+Moving to: 4670, Distance: 19
+Moving to: 4675, Distance: 18
+Moving to: 4680, Distance: 17
+Moving to: 4689, Distance: 16
+Moving to: 4681, Distance: 15
+Moving to: 4676, Distance: 14
+Moving to: 4682, Distance: 13
+Moving to: 4690, Distance: 12
+Moving to: 4696, Distance: 11
+Moving to: 4703, Distance: 10
+Moving to: 4710, Distance: 11
+Moving to: 4718, Distance: 10
+Moving to: 4725, Distance: 9
+Moving to: 4731, Distance: 8
+Moving to: 4737, Distance: 9
+Moving to: 4745, Distance: 8
+Moving to: 4753, Distance: 7
+Moving to: 4761, Distance: 6
+Moving to: 4771, Distance: 7
+Moving to: 4779, Distance: 6
+Moving to: 4788, Distance: 5
+Moving to: 4780, Distance: 4
+Moving to: 4789, Distance: 3
+Moving to: 4781, Distance: 4
+Moving to: 4790, Distance: 3
+Moving to: 4799, Distance: 4
+Moving to: 4809, Distance: 3
+Moving to: 4815, Distance: 2
+Moving to: 4823, Distance: 1
+Moving to: 4833, Distance: 0
+Orb found at tile: 4833
+Bonus for run 5 (seed=14): 1.2724137931034483
+
+Seed : 15
+Exploration started at tile: 5568
+Moving to: 5569, Distance: 15
+Moving to: 5570, Distance: 14
+Moving to: 5572, Distance: 13
+Moving to: 5575, Distance: 12
+Moving to: 5578, Distance: 11
+Moving to: 5580, Distance: 10
+Moving to: 5582, Distance: 9
+Moving to: 5584, Distance: 8
+Moving to: 5587, Distance: 7
+Moving to: 5590, Distance: 6
+Moving to: 5593, Distance: 5
+Moving to: 5595, Distance: 6
+Moving to: 5597, Distance: 5
+Moving to: 5600, Distance: 4
+Moving to: 5603, Distance: 3
+Moving to: 5607, Distance: 2
+Moving to: 5609, Distance: 1
+Moving to: 5612, Distance: 0
+Orb found at tile: 5612
+Bonus for run 6 (seed=15): 1.3
+
+Average bonus : 1.163314900476591
+
+[Incubating] Problems report is available at: file:///C:/UoL/CSM100-2025-APR/CSM100-2025-APR_FinalCourseWork/CSM100-2025-APR_FinalCourseWork/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 20s
+4 actionable tasks: 2 executed, 2 up-to-date
+Configuration cache entry stored.

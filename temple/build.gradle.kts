@@ -34,6 +34,6 @@ java {
 }
 
 application {
-    mainClass.set("main.GUImain")
-    // mainClass.set("main.TXTmain")
+    // mainClass.set("main.GUImain")
+    mainClass.set("main.TXTmain")
 }

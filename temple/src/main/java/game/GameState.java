@@ -99,7 +99,7 @@ public class GameState implements ExplorationState, EscapeState {
         }
     }
 
-    public static int runNewGame(long seed, boolean useGui) {
+    public static double runNewGame(long seed, boolean useGui) {
         GameState state;
         if (seed != 0) {
             state = new GameState(seed, useGui);
@@ -334,7 +334,8 @@ public class GameState implements ExplorationState, EscapeState {
             throw new IllegalStateException("pickUpGold: Error, no gold on this tile");
         }
         goldCollected += position.getTile().takeGold();
-        gui.ifPresent((g) -> g.updateCoins(goldCollected, getScore()));
+        // gui.ifPresent((g) -> g.updateCoins(goldCollected, getScore()));
+        gui.ifPresent((g) -> g.updateCoins(goldCollected, (double)getScore()));
     }
 
     @Override
@@ -354,8 +355,11 @@ public class GameState implements ExplorationState, EscapeState {
      *
      * @return the player's current score
      */
-    int getScore() {
-        return (int) computeBonusFactor();
+    // int getScore() {
+    //     return (int) computeBonusFactor();
+    // }
+    double getScore() {
+        return computeBonusFactor();
     }
 
     boolean getExploreSucceeded() {

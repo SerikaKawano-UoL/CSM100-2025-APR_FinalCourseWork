@@ -104,7 +104,11 @@ public class OptionsPanel extends JPanel implements ActionListener {
      * Update the number of coins c picked up as displayed on the GUI.
      * Score is the current player's score.
      */
-    public void updateCoins(int c, int score) {
+    // public void updateCoins(int c, int score) {
+    //     coinsLabel.setText("Coins: " + c);
+    //     scoreLabel.setText("Score: " + score);
+    // }
+    public void updateCoins(int c, double score) {
         coinsLabel.setText("Coins: " + c);
         scoreLabel.setText("Score: " + score);
     }

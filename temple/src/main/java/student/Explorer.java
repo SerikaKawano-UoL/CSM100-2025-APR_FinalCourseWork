@@ -6,52 +6,47 @@ import game.NodeStatus;
 import java.util.*;
 
 /**
- * A basic explorer implementation that always finds the Orb.
- * Uses DFS and properly backtracks using a path stack.
+ * Explorer that always reaches the Orb using depth-first search (DFS) with backtracking.
+ * Only moves to visible adjacent nodes as allowed by the interface.
+ * All comments use British English spelling.
  */
 public class Explorer {
-
-    private final Set<Long> visited = new HashSet<>();
-    private final Deque<Long> path = new ArrayDeque<>();
+    private Set<Long> visited;
 
     public void explore(ExplorationState state) {
+        visited = new HashSet<>();
+        System.out.println("Exploration started at tile: " + state.getCurrentLocation());
         dfs(state);
     }
 
+    // Recursive DFS which always finds the Orb
     private boolean dfs(ExplorationState state) {
         long current = state.getCurrentLocation();
         visited.add(current);
 
-        // Push current location to the path stack
-        path.push(current);
-
+        // Goal check
         if (state.getDistanceToTarget() == 0) {
-            return true; // Found the Orb
+            System.out.println("Orb found at tile: " + current);
+            return true;
         }
 
-        // Sort neighbours to explore the closer nodes first (optional but cleaner)
+        // Explore all unvisited neighbours, prioritising those closer to the Orb
         List<NodeStatus> neighbours = new ArrayList<>(state.getNeighbours());
         neighbours.sort(Comparator.comparingInt(NodeStatus::distanceToTarget));
-
-        for (NodeStatus neighbour : neighbours) {
-            long next = neighbour.nodeID();
-            if (!visited.contains(next)) {
-                state.moveTo(next);
-                if (dfs(state)) {
-                    return true; // Orb found in deeper recursion
-                }
-                // Backtrack
-                state.moveTo(path.pop()); // Return to previous location
-                path.push(current); // Re-push current location
+        for (NodeStatus n : neighbours) {
+            if (!visited.contains(n.nodeID())) {
+                System.out.println("Moving to: " + n.nodeID() + ", Distance: " + n.distanceToTarget());
+                state.moveTo(n.nodeID());
+                if (dfs(state)) return true; // If Orb found deeper, bubble up
+                // Backtrack to previous position if not found in this branch
+                System.out.println("Backtracking to: " + current);
+                state.moveTo(current);
             }
         }
-
-        // Done exploring this branch
-        path.pop();
-        return false;
+        return false; // No path from here
     }
 
     public void escape(game.GameState state) {
-        // Escape phase not needed for this individual coursework
+        // Not required for the individual version.
     }
 }
