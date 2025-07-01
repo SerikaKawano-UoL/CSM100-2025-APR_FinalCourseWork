@@ -1,0 +1,362 @@
+﻿Calculating task graph as no cached configuration is available for tasks: :temple:run --args=-minseed 10 -maxseed 20
+> Task :temple:generateEffectiveLombokConfig UP-TO-DATE
+> Task :temple:processResources UP-TO-DATE
+> Task :temple:compileJava
+> Task :temple:classes
+
+> Task :temple:run
+Seed : 10
+Moving to: 1, Distance: 24
+Moving to: 2, Distance: 23
+Moving to: 3, Distance: 22
+Moving to: 4, Distance: 21
+Moving to: 5, Distance: 20
+Moving to: 6, Distance: 19
+Moving to: 7, Distance: 18
+Moving to: 9, Distance: 17
+Moving to: 12, Distance: 16
+Moving to: 17, Distance: 15
+Moving to: 22, Distance: 14
+Moving to: 28, Distance: 13
+Moving to: 35, Distance: 12
+Moving to: 40, Distance: 11
+Moving to: 46, Distance: 10
+Moving to: 52, Distance: 9
+Moving to: 60, Distance: 8
+Moving to: 67, Distance: 7
+Moving to: 73, Distance: 6
+Moving to: 76, Distance: 5
+Moving to: 81, Distance: 4
+Moving to: 87, Distance: 3
+Moving to: 83, Distance: 4
+Moving to: 78, Distance: 5
+Moving to: 74, Distance: 6
+Moving to: 68, Distance: 7
+Backtracking to: 68
+Moving to: 77, Distance: 7
+Bonus for run 1 (seed=10): 1.296
+
+Seed : 11
+Moving to: 1293, Distance: 13
+Moving to: 1294, Distance: 12
+Moving to: 1297, Distance: 13
+Moving to: 1300, Distance: 14
+Moving to: 1304, Distance: 13
+Moving to: 1307, Distance: 12
+Moving to: 1309, Distance: 11
+Moving to: 1311, Distance: 10
+Moving to: 1313, Distance: 9
+Moving to: 1317, Distance: 10
+Moving to: 1321, Distance: 9
+Moving to: 1323, Distance: 8
+Moving to: 1327, Distance: 7
+Moving to: 1332, Distance: 6
+Moving to: 1336, Distance: 5
+Moving to: 1339, Distance: 6
+Moving to: 1342, Distance: 5
+Moving to: 1344, Distance: 4
+Moving to: 1343, Distance: 3
+Moving to: 1340, Distance: 2
+Moving to: 1337, Distance: 1
+Moving to: 1341, Distance: 0
+Orb found at tile: 1341
+Bonus for run 2 (seed=11): 1.2625
+
+Seed : 12
+Moving to: 1533, Distance: 28
+Moving to: 1535, Distance: 27
+Moving to: 1538, Distance: 26
+Moving to: 1540, Distance: 25
+Moving to: 1542, Distance: 26
+Moving to: 1545, Distance: 25
+Moving to: 1548, Distance: 26
+Moving to: 1544, Distance: 27
+Moving to: 1547, Distance: 28
+Moving to: 1550, Distance: 29
+Moving to: 1553, Distance: 30
+Moving to: 1557, Distance: 31
+Moving to: 1561, Distance: 32
+Moving to: 1568, Distance: 33
+Moving to: 1576, Distance: 32
+Moving to: 1569, Distance: 31
+Moving to: 1562, Distance: 30
+Moving to: 1570, Distance: 29
+Moving to: 1577, Distance: 28
+Moving to: 1571, Distance: 27
+Moving to: 1578, Distance: 26
+Moving to: 1583, Distance: 25
+Moving to: 1588, Distance: 24
+Moving to: 1593, Distance: 23
+Moving to: 1596, Distance: 22
+Moving to: 1597, Distance: 21
+Moving to: 1594, Distance: 20
+Moving to: 1589, Distance: 21
+Moving to: 1585, Distance: 22
+Moving to: 1579, Distance: 23
+Moving to: 1572, Distance: 22
+Moving to: 1565, Distance: 21
+Moving to: 1573, Distance: 20
+Moving to: 1567, Distance: 21
+Moving to: 1575, Distance: 22
+Moving to: 1581, Distance: 21
+Moving to: 1586, Distance: 22
+Moving to: 1591, Distance: 21
+Moving to: 1595, Distance: 22
+Moving to: 1590, Distance: 23
+Backtracking to: 1590
+Moving to: 1598, Distance: 23
+Bonus for run 3 (seed=12): 1.3
+
+Seed : 13
+Moving to: 3409, Distance: 21
+Moving to: 3410, Distance: 20
+Moving to: 3412, Distance: 19
+Moving to: 3414, Distance: 20
+Moving to: 3416, Distance: 21
+Moving to: 3418, Distance: 20
+Moving to: 3421, Distance: 19
+Moving to: 3424, Distance: 18
+Moving to: 3426, Distance: 17
+Moving to: 3429, Distance: 16
+Moving to: 3434, Distance: 17
+Moving to: 3442, Distance: 16
+Moving to: 3448, Distance: 15
+Moving to: 3452, Distance: 16
+Moving to: 3456, Distance: 15
+Moving to: 3459, Distance: 14
+Moving to: 3462, Distance: 13
+Moving to: 3464, Distance: 12
+Moving to: 3467, Distance: 13
+Backtracking to: 3467
+Moving to: 3468, Distance: 13
+Bonus for run 4 (seed=13): 1.3
+
+Seed : 14
+Moving to: 4657, Distance: 22
+Moving to: 4659, Distance: 21
+Moving to: 4661, Distance: 20
+Moving to: 4662, Distance: 19
+Moving to: 4664, Distance: 18
+Moving to: 4666, Distance: 19
+Moving to: 4668, Distance: 18
+Moving to: 4670, Distance: 19
+Moving to: 4675, Distance: 18
+Moving to: 4680, Distance: 17
+Moving to: 4689, Distance: 16
+Moving to: 4681, Distance: 15
+Moving to: 4676, Distance: 14
+Moving to: 4682, Distance: 13
+Moving to: 4690, Distance: 12
+Moving to: 4696, Distance: 11
+Moving to: 4703, Distance: 10
+Moving to: 4710, Distance: 11
+Moving to: 4718, Distance: 10
+Moving to: 4725, Distance: 9
+Moving to: 4731, Distance: 8
+Moving to: 4737, Distance: 9
+Moving to: 4745, Distance: 8
+Moving to: 4753, Distance: 7
+Moving to: 4761, Distance: 6
+Moving to: 4771, Distance: 7
+Moving to: 4779, Distance: 6
+Moving to: 4788, Distance: 5
+Moving to: 4780, Distance: 4
+Moving to: 4789, Distance: 3
+Moving to: 4781, Distance: 4
+Moving to: 4790, Distance: 3
+Moving to: 4799, Distance: 4
+Moving to: 4809, Distance: 3
+Moving to: 4815, Distance: 2
+Moving to: 4823, Distance: 1
+Moving to: 4833, Distance: 0
+Orb found at tile: 4833
+Bonus for run 5 (seed=14): 1.2724137931034483
+
+Seed : 15
+Moving to: 5569, Distance: 15
+Moving to: 5570, Distance: 14
+Moving to: 5572, Distance: 13
+Moving to: 5575, Distance: 12
+Moving to: 5578, Distance: 11
+Moving to: 5580, Distance: 10
+Moving to: 5582, Distance: 9
+Moving to: 5584, Distance: 8
+Moving to: 5587, Distance: 7
+Moving to: 5590, Distance: 6
+Moving to: 5593, Distance: 5
+Moving to: 5595, Distance: 6
+Moving to: 5597, Distance: 5
+Moving to: 5600, Distance: 4
+Moving to: 5603, Distance: 3
+Moving to: 5607, Distance: 2
+Moving to: 5609, Distance: 1
+Moving to: 5612, Distance: 0
+Orb found at tile: 5612
+Bonus for run 6 (seed=15): 1.3
+
+Seed : 16
+Moving to: 6906, Distance: 27
+Moving to: 6907, Distance: 26
+Moving to: 6908, Distance: 25
+Moving to: 6909, Distance: 24
+Moving to: 6910, Distance: 23
+Moving to: 6913, Distance: 22
+Moving to: 6916, Distance: 21
+Moving to: 6912, Distance: 22
+Moving to: 6915, Distance: 21
+Moving to: 6918, Distance: 20
+Moving to: 6920, Distance: 19
+Moving to: 6922, Distance: 18
+Moving to: 6924, Distance: 17
+Moving to: 6928, Distance: 16
+Moving to: 6933, Distance: 15
+Moving to: 6939, Distance: 14
+Moving to: 6945, Distance: 13
+Moving to: 6949, Distance: 12
+Moving to: 6954, Distance: 11
+Moving to: 6961, Distance: 10
+Moving to: 6969, Distance: 9
+Moving to: 6975, Distance: 8
+Moving to: 6985, Distance: 9
+Moving to: 6995, Distance: 8
+Moving to: 7007, Distance: 7
+Moving to: 7020, Distance: 6
+Moving to: 7035, Distance: 7
+Moving to: 7048, Distance: 8
+Moving to: 7062, Distance: 7
+Moving to: 7075, Distance: 6
+Moving to: 7092, Distance: 5
+Moving to: 7106, Distance: 4
+Moving to: 7122, Distance: 5
+Moving to: 7139, Distance: 4
+Moving to: 7154, Distance: 3
+Moving to: 7169, Distance: 2
+Moving to: 7186, Distance: 3
+Moving to: 7198, Distance: 2
+Moving to: 7210, Distance: 3
+Moving to: 7227, Distance: 2
+Moving to: 7211, Distance: 3
+Moving to: 7199, Distance: 2
+Moving to: 7187, Distance: 1
+Moving to: 7170, Distance: 0
+Orb found at tile: 7170
+Bonus for run 7 (seed=16): 1.2705882352941178
+
+Seed : 17
+Moving to: 10170, Distance: 15
+Moving to: 10171, Distance: 14
+Moving to: 10173, Distance: 13
+Moving to: 10175, Distance: 12
+Moving to: 10178, Distance: 11
+Moving to: 10176, Distance: 12
+Moving to: 10179, Distance: 11
+Moving to: 10181, Distance: 12
+Moving to: 10184, Distance: 13
+Moving to: 10186, Distance: 12
+Moving to: 10189, Distance: 11
+Moving to: 10192, Distance: 12
+Moving to: 10195, Distance: 11
+Moving to: 10198, Distance: 10
+Moving to: 10201, Distance: 9
+Moving to: 10205, Distance: 8
+Moving to: 10209, Distance: 9
+Moving to: 10212, Distance: 8
+Moving to: 10216, Distance: 9
+Moving to: 10220, Distance: 8
+Moving to: 10225, Distance: 7
+Moving to: 10230, Distance: 6
+Moving to: 10237, Distance: 5
+Moving to: 10245, Distance: 4
+Moving to: 10256, Distance: 3
+Moving to: 10264, Distance: 2
+Moving to: 10270, Distance: 1
+Moving to: 10275, Distance: 0
+Orb found at tile: 10275
+Bonus for run 8 (seed=17): 1.2923076923076924
+
+Seed : 18
+Moving to: 12130, Distance: 28
+Moving to: 12131, Distance: 27
+Moving to: 12132, Distance: 26
+Moving to: 12134, Distance: 25
+Moving to: 12137, Distance: 24
+Moving to: 12142, Distance: 23
+Moving to: 12147, Distance: 22
+Moving to: 12153, Distance: 21
+Moving to: 12159, Distance: 20
+Moving to: 12165, Distance: 19
+Moving to: 12171, Distance: 18
+Moving to: 12179, Distance: 17
+Moving to: 12191, Distance: 16
+Moving to: 12180, Distance: 17
+Backtracking to: 12180
+Moving to: 12203, Distance: 17
+Bonus for run 9 (seed=18): 1.3
+
+Seed : 19
+Moving to: 13274, Distance: 13
+Moving to: 13275, Distance: 12
+Moving to: 13278, Distance: 11
+Moving to: 13281, Distance: 10
+Moving to: 13284, Distance: 9
+Moving to: 13289, Distance: 8
+Moving to: 13294, Distance: 7
+Moving to: 13302, Distance: 6
+Moving to: 13309, Distance: 5
+Moving to: 13314, Distance: 4
+Moving to: 13319, Distance: 3
+Moving to: 13324, Distance: 2
+Moving to: 13330, Distance: 1
+Moving to: 13335, Distance: 0
+Orb found at tile: 13335
+Bonus for run 10 (seed=19): 1.3
+
+Seed : 20
+Moving to: 14013, Distance: 15
+Moving to: 14014, Distance: 14
+Moving to: 14017, Distance: 13
+Moving to: 14020, Distance: 12
+Moving to: 14024, Distance: 11
+Moving to: 14028, Distance: 10
+Moving to: 14033, Distance: 9
+Moving to: 14036, Distance: 8
+Moving to: 14038, Distance: 7
+Moving to: 14040, Distance: 8
+Moving to: 14039, Distance: 9
+Moving to: 14041, Distance: 8
+Moving to: 14042, Distance: 9
+Moving to: 14043, Distance: 8
+Moving to: 14044, Distance: 7
+Moving to: 14045, Distance: 6
+Moving to: 14046, Distance: 5
+Moving to: 14047, Distance: 4
+Moving to: 14048, Distance: 5
+Moving to: 14049, Distance: 4
+Moving to: 14050, Distance: 5
+Moving to: 14051, Distance: 4
+Moving to: 14052, Distance: 5
+Moving to: 14053, Distance: 4
+Moving to: 14054, Distance: 5
+Moving to: 14055, Distance: 4
+Moving to: 14056, Distance: 5
+Moving to: 14057, Distance: 4
+Moving to: 14058, Distance: 5
+Moving to: 14059, Distance: 4
+Moving to: 14060, Distance: 5
+Moving to: 14061, Distance: 4
+Moving to: 14062, Distance: 5
+Moving to: 14064, Distance: 4
+Moving to: 14066, Distance: 5
+Moving to: 14068, Distance: 4
+Moving to: 14070, Distance: 3
+Moving to: 14072, Distance: 2
+Moving to: 14076, Distance: 1
+Moving to: 14082, Distance: 0
+Orb found at tile: 14082
+Bonus for run 11 (seed=20): 1.2947368421052632
+
+Average bonus : 1.2898678693464112
+
+BUILD SUCCESSFUL in 13s
+4 actionable tasks: 2 executed, 2 up-to-date
+Configuration cache entry stored.

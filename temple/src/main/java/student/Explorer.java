@@ -6,9 +6,12 @@ import game.NodeStatus;
 import java.util.*;
 
 /**
- * Explorer that always reaches the Orb using depth-first search (DFS) with backtracking.
- * Only moves to visible adjacent nodes as allowed by the interface.
- * All comments use British English spelling.
+ * Explorer for the Software Design and Programming Coursework.
+ * Author: Serika Kawano
+ * Date: 2025-07-01
+ *
+ * This explorer always finds the Orb by using a depth-first search (DFS) strategy,
+ * carefully avoiding any infinite loops or dead-ends.
  */
 public class Explorer {
     private Set<Long> visited;
